@@ -109,26 +109,10 @@ label5 = tk.Label(janb3, text="Movendo se para sala B3",font=("Arial", 25),bg =
 "blue") 
 label5.place(x=550, y=100) 
 label6 = tk.Label(janb3, text="Segue-me, Obrigado",font=("Arial", 15)) 
-Luís Oliveira  
-Técnico de Mecatrónica – Triénio 2019/2022 
- 
-IMP.21 – V01 
-Página 83 
- 
-Luís Oliveira  
-Técnico de Mecatrónica – Triénio 2019/2022 
- 
-IMP.21 – V01 
-Página 84 
- 
-PAP 
-SchoolBot 
- 
- 
-    label6.place(x=650, y=200) 
-    labelcara = tk.Label(janb3, text="^_^",font=("Arial", 200)) 
-    labelcara.place(x=550, y=250) 
-    janb3.destroy() 
+label6.place(x=650, y=200) 
+labelcara = tk.Label(janb3, text="^_^",font=("Arial", 200)) 
+labelcara.place(x=550, y=250) 
+janb3.destroy() 
      
 previouswindow.destroy() 
      
@@ -182,15 +166,6 @@ GPIO.input(BtnPin3)==GPIO.LOW:
  
  
 def createjanmanu(previouswindow): 
- 
-Luís Oliveira  
-Técnico de Mecatrónica – Triénio 2019/2022 
- 
-IMP.21 – V01 
-Página 85 
- 
-PAP 
-SchoolBot 
     GPIO.output(OUTPin1, GPIO.LOW) 
     janmanu = tk.Tk() 
  
